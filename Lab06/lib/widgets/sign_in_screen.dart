@@ -45,7 +45,7 @@ class SignInScreen extends StatelessWidget {
                   foregroundColor: Colors.blue[900],
                   side: const BorderSide(color: Colors.black12),
                   padding: const EdgeInsets.symmetric(
-                    vertical: 25,
+                    vertical: 15,
                   ),
                 ),
                 child: const Text('Sign up'),
@@ -74,7 +74,7 @@ class SignInScreen extends StatelessWidget {
                         backgroundColor: Colors.blueAccent[900],
                         foregroundColor: Colors.white,
                         padding: const EdgeInsets.symmetric(
-                          vertical: 25,
+                          vertical: 15,
                         ),
                       ),
                       child: const Text('Login'),
@@ -97,7 +97,7 @@ class SignInScreen extends StatelessWidget {
                         minimumSize: const Size(double.infinity, 50),
                         foregroundColor: Colors.blue[900],
                         padding: const EdgeInsets.symmetric(
-                          vertical: 25,
+                          vertical: 15,
                         ),
                       ),
                       child: const Text('Reset password'),

@@ -51,7 +51,7 @@ class ResetPasswordScreen extends StatelessWidget {
                     backgroundColor: Colors.blueAccent[900],
                     foregroundColor: Colors.white,
                     padding: const EdgeInsets.symmetric(
-                      vertical: 25,
+                      vertical: 15,
                     ),
                   ),
                   child: const Text('Reset'),
@@ -69,7 +69,7 @@ class ResetPasswordScreen extends StatelessWidget {
                     foregroundColor: Colors.blue[900],
                     side: const BorderSide(color: Colors.black12),
                     padding: const EdgeInsets.symmetric(
-                      vertical: 25,
+                      vertical: 15,
                     ),
                   ),
                   child: const Text('Back'),

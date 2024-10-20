@@ -17,9 +17,12 @@ class MyTextField extends StatelessWidget {
             fontWeight: FontWeight.bold,
           ),
         ),
-        const TextField(
+        TextField(
           decoration: InputDecoration(
-            border: OutlineInputBorder(),
+            border: const OutlineInputBorder(),
+            filled: true,
+            fillColor: Colors.grey[75],
+            contentPadding: const EdgeInsets.symmetric(vertical: 7.5),
           ),
         )
       ],
